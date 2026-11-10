@@ -336,3 +336,14 @@ img { height: auto; }
 .compare .card.hybrid { border-top: 5px solid var(--green); background: linear-gradient(180deg, var(--paper), #fff 70%); box-shadow: inset 0 5px 0 0 var(--terra); }
 @media (max-width: 980px) { .compare.three { grid-template-columns: minmax(0,1fr); } }
 @media (max-width: 760px) { .compare { grid-template-columns: minmax(0,1fr); } }
+
+/* Bottone WhatsApp */
+.btn-wa { text-transform: uppercase; letter-spacing: .06em; font-size: 16px; display: inline-flex; align-items: center; justify-content: center; gap: 10px; }
+.btn-wa svg { flex: none; margin-top: -3px; }
+.cta-band .btn-wa { background: #fff; color: var(--green-dark); box-shadow: none; }
+.cta-band .btn-wa:hover { background: var(--sage); color: var(--green-dark); }
+.menu .btn-wa { letter-spacing: .04em; }
+.modules.modules-3 { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 900px) { .modules.modules-3 { grid-template-columns: 1fr; } }
+.pillar .checks { margin-top: 18px; }
+@media (max-width: 520px) { .btn-wa { width: 100%; font-size: 15px; } }
